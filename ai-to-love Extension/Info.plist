@@ -22,9 +22,9 @@
 			<key>Identifier</key>
 			<string>Button</string>
 			<key>Image</key>
-			<string>ToolbarItemIcon.pdf</string>
+			<string>aicon-toolbar.png</string>
 			<key>Label</key>
-			<string>Your Button</string>
+			<string>愛</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -33,10 +33,10 @@
 				<string>example.com</string>
 			</array>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>This is ai-to-love Extension. You should tell us what your extension does here.</string>
+	<string>AI (愛) means &quot;love&quot; in Japanese. Replaces occurrences of &quot;AI&quot; with &quot;love&quot;.</string>
 </dict>
 </plist>

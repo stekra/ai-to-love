@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53230F55298D70B600AE630E /* aicon-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 53230F53298D70A000AE630E /* aicon-light.png */; };
+		53230F56298D70B600AE630E /* aicon-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 53230F54298D70A900AE630E /* aicon-dark.png */; };
+		53230F58298D73C000AE630E /* aicon-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 53230F57298D739C00AE630E /* aicon-toolbar.png */; };
 		53CCBD4D298D3D300041314B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBD4C298D3D300041314B /* AppDelegate.swift */; };
 		53CCBD51298D3D300041314B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD4F298D3D300041314B /* Main.html */; };
 		53CCBD53298D3D300041314B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD52298D3D300041314B /* Icon.png */; };
@@ -48,6 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		53230F53298D70A000AE630E /* aicon-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aicon-light.png"; sourceTree = "<group>"; };
+		53230F54298D70A900AE630E /* aicon-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aicon-dark.png"; sourceTree = "<group>"; };
+		53230F57298D739C00AE630E /* aicon-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aicon-toolbar.png"; sourceTree = "<group>"; };
 		53CCBD49298D3D300041314B /* ai-to-love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ai-to-love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CCBD4C298D3D300041314B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53CCBD50298D3D300041314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -124,6 +130,8 @@
 			children = (
 				53CCBD4F298D3D300041314B /* Main.html */,
 				53CCBD52298D3D300041314B /* Icon.png */,
+				53230F53298D70A000AE630E /* aicon-light.png */,
+				53230F54298D70A900AE630E /* aicon-dark.png */,
 				53CCBD54298D3D300041314B /* Style.css */,
 				53CCBD56298D3D300041314B /* Script.js */,
 			);
@@ -148,6 +156,7 @@
 			children = (
 				53CCBD6F298D3D330041314B /* script.js */,
 				53CCBD71298D3D330041314B /* ToolbarItemIcon.pdf */,
+				53230F57298D739C00AE630E /* aicon-toolbar.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -235,7 +244,9 @@
 			files = (
 				53CCBD53298D3D300041314B /* Icon.png in Resources */,
 				53CCBD5C298D3D300041314B /* Main.storyboard in Resources */,
+				53230F56298D70B600AE630E /* aicon-dark.png in Resources */,
 				53CCBD57298D3D300041314B /* Script.js in Resources */,
+				53230F55298D70B600AE630E /* aicon-light.png in Resources */,
 				53CCBD51298D3D300041314B /* Main.html in Resources */,
 				53CCBD5E298D3D320041314B /* Assets.xcassets in Resources */,
 				53CCBD55298D3D300041314B /* Style.css in Resources */,
@@ -248,6 +259,7 @@
 			files = (
 				53CCBD75298D3D330041314B /* SafariExtensionViewController.xib in Resources */,
 				53CCBD72298D3D330041314B /* ToolbarItemIcon.pdf in Resources */,
+				53230F58298D73C000AE630E /* aicon-toolbar.png in Resources */,
 				53CCBD70298D3D330041314B /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
