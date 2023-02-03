@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53CCBD4D298D3D300041314B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBD4C298D3D300041314B /* AppDelegate.swift */; };
+		53CCBD51298D3D300041314B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD4F298D3D300041314B /* Main.html */; };
+		53CCBD53298D3D300041314B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD52298D3D300041314B /* Icon.png */; };
+		53CCBD55298D3D300041314B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD54298D3D300041314B /* Style.css */; };
+		53CCBD57298D3D300041314B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD56298D3D300041314B /* Script.js */; };
+		53CCBD59298D3D300041314B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBD58298D3D300041314B /* ViewController.swift */; };
+		53CCBD5C298D3D300041314B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD5A298D3D300041314B /* Main.storyboard */; };
+		53CCBD5E298D3D320041314B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD5D298D3D320041314B /* Assets.xcassets */; };
+		53CCBD66298D3D330041314B /* ai-to-love Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 53CCBD65298D3D330041314B /* ai-to-love Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53CCBD6B298D3D330041314B /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBD6A298D3D330041314B /* SafariExtensionHandler.swift */; };
+		53CCBD6D298D3D330041314B /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBD6C298D3D330041314B /* SafariExtensionViewController.swift */; };
+		53CCBD70298D3D330041314B /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD6F298D3D330041314B /* script.js */; };
+		53CCBD72298D3D330041314B /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD71298D3D330041314B /* ToolbarItemIcon.pdf */; };
+		53CCBD75298D3D330041314B /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBD73298D3D330041314B /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CCBD67298D3D330041314B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CCBD41298D3D300041314B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CCBD64298D3D330041314B;
+			remoteInfo = "ai-to-love Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53CCBD7D298D3D330041314B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53CCBD66298D3D330041314B /* ai-to-love Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53CCBD49298D3D300041314B /* ai-to-love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ai-to-love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CCBD4C298D3D300041314B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53CCBD50298D3D300041314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		53CCBD52298D3D300041314B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		53CCBD54298D3D300041314B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		53CCBD56298D3D300041314B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		53CCBD58298D3D300041314B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53CCBD5B298D3D300041314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53CCBD5D298D3D320041314B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CCBD5F298D3D320041314B /* ai_to_love.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ai_to_love.entitlements; sourceTree = "<group>"; };
+		53CCBD60298D3D320041314B /* ai-to-love.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ai-to-love.entitlements"; sourceTree = "<group>"; };
+		53CCBD65298D3D330041314B /* ai-to-love Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ai-to-love Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CCBD6A298D3D330041314B /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		53CCBD6C298D3D330041314B /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		53CCBD6F298D3D330041314B /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		53CCBD71298D3D330041314B /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		53CCBD74298D3D330041314B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		53CCBD76298D3D330041314B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CCBD77298D3D330041314B /* ai_to_love_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ai_to_love_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CCBD46298D3D300041314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CCBD62298D3D330041314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53CCBD40298D3D300041314B = {
+			isa = PBXGroup;
+			children = (
+				53CCBD4B298D3D300041314B /* ai-to-love */,
+				53CCBD69298D3D330041314B /* ai-to-love Extension */,
+				53CCBD4A298D3D300041314B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53CCBD4A298D3D300041314B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CCBD49298D3D300041314B /* ai-to-love.app */,
+				53CCBD65298D3D330041314B /* ai-to-love Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CCBD4B298D3D300041314B /* ai-to-love */ = {
+			isa = PBXGroup;
+			children = (
+				53CCBD4C298D3D300041314B /* AppDelegate.swift */,
+				53CCBD58298D3D300041314B /* ViewController.swift */,
+				53CCBD5A298D3D300041314B /* Main.storyboard */,
+				53CCBD5D298D3D320041314B /* Assets.xcassets */,
+				53CCBD5F298D3D320041314B /* ai_to_love.entitlements */,
+				53CCBD60298D3D320041314B /* ai-to-love.entitlements */,
+				53CCBD4E298D3D300041314B /* Resources */,
+			);
+			path = "ai-to-love";
+			sourceTree = "<group>";
+		};
+		53CCBD4E298D3D300041314B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53CCBD4F298D3D300041314B /* Main.html */,
+				53CCBD52298D3D300041314B /* Icon.png */,
+				53CCBD54298D3D300041314B /* Style.css */,
+				53CCBD56298D3D300041314B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53CCBD69298D3D330041314B /* ai-to-love Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53CCBD6A298D3D330041314B /* SafariExtensionHandler.swift */,
+				53CCBD6C298D3D330041314B /* SafariExtensionViewController.swift */,
+				53CCBD73298D3D330041314B /* SafariExtensionViewController.xib */,
+				53CCBD76298D3D330041314B /* Info.plist */,
+				53CCBD77298D3D330041314B /* ai_to_love_Extension.entitlements */,
+				53CCBD6E298D3D330041314B /* Resources */,
+			);
+			path = "ai-to-love Extension";
+			sourceTree = "<group>";
+		};
+		53CCBD6E298D3D330041314B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53CCBD6F298D3D330041314B /* script.js */,
+				53CCBD71298D3D330041314B /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CCBD48298D3D300041314B /* ai-to-love */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CCBD7E298D3D330041314B /* Build configuration list for PBXNativeTarget "ai-to-love" */;
+			buildPhases = (
+				53CCBD45298D3D300041314B /* Sources */,
+				53CCBD46298D3D300041314B /* Frameworks */,
+				53CCBD47298D3D300041314B /* Resources */,
+				53CCBD7D298D3D330041314B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CCBD68298D3D330041314B /* PBXTargetDependency */,
+			);
+			name = "ai-to-love";
+			productName = "ai-to-love";
+			productReference = 53CCBD49298D3D300041314B /* ai-to-love.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53CCBD64298D3D330041314B /* ai-to-love Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CCBD7A298D3D330041314B /* Build configuration list for PBXNativeTarget "ai-to-love Extension" */;
+			buildPhases = (
+				53CCBD61298D3D330041314B /* Sources */,
+				53CCBD62298D3D330041314B /* Frameworks */,
+				53CCBD63298D3D330041314B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ai-to-love Extension";
+			productName = "ai-to-love Extension";
+			productReference = 53CCBD65298D3D330041314B /* ai-to-love Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CCBD41298D3D300041314B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					53CCBD48298D3D300041314B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					53CCBD64298D3D330041314B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 53CCBD44298D3D300041314B /* Build configuration list for PBXProject "ai-to-love" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CCBD40298D3D300041314B;
+			productRefGroup = 53CCBD4A298D3D300041314B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CCBD48298D3D300041314B /* ai-to-love */,
+				53CCBD64298D3D330041314B /* ai-to-love Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CCBD47298D3D300041314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CCBD53298D3D300041314B /* Icon.png in Resources */,
+				53CCBD5C298D3D300041314B /* Main.storyboard in Resources */,
+				53CCBD57298D3D300041314B /* Script.js in Resources */,
+				53CCBD51298D3D300041314B /* Main.html in Resources */,
+				53CCBD5E298D3D320041314B /* Assets.xcassets in Resources */,
+				53CCBD55298D3D300041314B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CCBD63298D3D330041314B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CCBD75298D3D330041314B /* SafariExtensionViewController.xib in Resources */,
+				53CCBD72298D3D330041314B /* ToolbarItemIcon.pdf in Resources */,
+				53CCBD70298D3D330041314B /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CCBD45298D3D300041314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CCBD59298D3D300041314B /* ViewController.swift in Sources */,
+				53CCBD4D298D3D300041314B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CCBD61298D3D330041314B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CCBD6D298D3D330041314B /* SafariExtensionViewController.swift in Sources */,
+				53CCBD6B298D3D330041314B /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CCBD68298D3D330041314B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CCBD64298D3D330041314B /* ai-to-love Extension */;
+			targetProxy = 53CCBD67298D3D330041314B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53CCBD4F298D3D300041314B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CCBD50298D3D300041314B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		53CCBD5A298D3D300041314B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CCBD5B298D3D300041314B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53CCBD73298D3D330041314B /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CCBD74298D3D330041314B /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53CCBD78298D3D330041314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CCBD79298D3D330041314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53CCBD7B298D3D330041314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ai-to-love Extension/ai_to_love_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9S5YWPVKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ai-to-love Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-to-love Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sutekura.ai-to-love.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53CCBD7C298D3D330041314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ai-to-love Extension/ai_to_love_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9S5YWPVKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ai-to-love Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-to-love Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sutekura.ai-to-love.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53CCBD7F298D3D330041314B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ai-to-love/ai-to-love.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9S5YWPVKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-to-love";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sutekura.ai-to-love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53CCBD80298D3D330041314B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ai-to-love/ai-to-love.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9S5YWPVKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-to-love";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sutekura.ai-to-love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CCBD44298D3D300041314B /* Build configuration list for PBXProject "ai-to-love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CCBD78298D3D330041314B /* Debug */,
+				53CCBD79298D3D330041314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CCBD7A298D3D330041314B /* Build configuration list for PBXNativeTarget "ai-to-love Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CCBD7B298D3D330041314B /* Debug */,
+				53CCBD7C298D3D330041314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CCBD7E298D3D330041314B /* Build configuration list for PBXNativeTarget "ai-to-love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CCBD7F298D3D330041314B /* Debug */,
+				53CCBD80298D3D330041314B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CCBD41298D3D300041314B /* Project object */;
+}
