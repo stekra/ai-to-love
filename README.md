@@ -16,7 +16,7 @@ AI (愛) means "love" in Japanese. A Safari extension that replaces occurrences 
   <img src="examples/Screenshot 2023-02-03 at 19.28.52.png" alt="Screenshot of Google love">
 </picture>
 
-- [More examples](/examples)
+[More examples](/examples)
 
 ## 
 > “What do you fear most in the world?”
