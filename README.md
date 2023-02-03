@@ -11,3 +11,6 @@ AI (愛) means "love" in Japanese. A Safari extension that replaces occurrences 
 
 ## Examples
 
+## 
+> “What do you fear most in the world?”
+> “The possibility that AI is not enough.”
