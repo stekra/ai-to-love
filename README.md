@@ -7,7 +7,8 @@
 AI (愛) means "love" in Japanese. A Safari extension that replaces occurrences of "AI" with "love".
 
 ## Installation
-
+1. Download [ai-to-love.app.zip](https://github.com/stekra/ai-to-love/releases/latest/download/ai-to-love.app.zip)
+2. ???
 
 ## Examples
 
