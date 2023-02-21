@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    replaceInText(document);
+    replaceInText(document.body);
 });
 
 function replaceInText(element) {
